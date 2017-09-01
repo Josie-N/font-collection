@@ -2,6 +2,7 @@
 <head>
 	<title>font collection demo</title>
 	<link href="./css/Courier/Courier.css" rel="stylesheet" type="text/css" />
+	<link href="./css/HelveticaNeue/HelveticaNeue.css" rel="stylesheet" type="text/css" />
 	<link href="./css/OCRAExtended/OCRAExtended.css" rel="stylesheet" type="text/css" />
 	<link href="./css/Slot/Slot.css" rel="stylesheet" type="text/css" />
 	<link href="./css/HiraginoSansGB/HiraginoSansGB-W3.css" rel="stylesheet" type="text/css" />
@@ -11,18 +12,28 @@
 		p {
 			font-size: 2em;
 		}
+		p:focus {
+			outline: none;
+		}
 	</style>
 </head>
 
 <body>
 	<h2>English</h2>
-	<p style="font-family: Courier">Courier<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
-	<p style="font-family: OCRAExtended">OCRAExtended<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
-	<p style="font-family: Slot">Slot<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: Courier">Courier<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	
+	<p contenteditable="true" style="font-family: HelveticaNeue-Bold">HelveticaNeue-Bold<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: HelveticaNeue-BlackCond">HelveticaNeue-BlackCond<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: HelveticaNeue-Light">HelveticaNeue-Light<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: HelveticaNeue-Medium">HelveticaNeue-Medium<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: HelveticaNeue-Thin">HelveticaNeue-Thin<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	
+	<p contenteditable="true" style="font-family: OCRAExtended">OCRAExtended<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
+	<p contenteditable="true" style="font-family: Slot">Slot<br>AaBbCcDdEeFfGgHhIiJjJkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789</p>
 	
 	<hr>
 	
 	<h2>Chinese</h2>
-	<p style="font-family: HiraginoSansGB-W3">HiraginoSansGB-W3<br>登入您的帳號</p>
-	<p style="font-family: HiraginoSansGB-W6">HiraginoSansGB-W6<br>登入您的帳號</p>
+	<p contenteditable="true" style="font-family: HiraginoSansGB-W3">HiraginoSansGB-W3<br>登入您的帳號</p>
+	<p contenteditable="true" style="font-family: HiraginoSansGB-W6">HiraginoSansGB-W6<br>登入您的帳號</p>
 </body>
